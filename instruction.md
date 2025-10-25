@@ -8,7 +8,7 @@ The Acorn CLE 101 is a cryptocurrency mining accelerator card from SQRL that can
 
 It features:
 
-An Artix7 XC7A200T speedgrade -3.
+- An Artix7 XC7A200T speedgrade -3.
 - A 16-bit / 1 GiB DDR3.
 - A 32MiB QSPI Flash.
 - A PCIe Gen2 X4 M2 connector (exposing the 4 GTP transceivers! - up to 6.6 Gb/s)
