@@ -52,7 +52,21 @@ You can either install Ubuntu via a Virtual Machine or install it directly on an
 - For installing Ubuntu on an external hard drive, you can watch the tutorial from this link [External Hard Drive](https://www.youtube.com/watch?v=KFwA1tjZp1w&t=236s)
 - For installing Ubuntu on a Virtual Machine, please watch this video [Virtual Machine](https://www.youtube.com/watch?v=Hva8lsV2nTk)
 ## Installing Litex
-
+1. Install prerequisites
+```
+$ sudo apt update
+$ sudo apt upgrade
+$ sudo apt install openocd fakeroot verilator python3 meson gtkterm gawk texinfo git python3-pip bison device-tree-compiler autoconf automake autotools-dev curl python3 libmpc-dev libmpfr-dev libgmp-dev build-essential flex gperf libtool patchutils bc zlib1g-dev libexpat-dev ninja-build
+```
+2. Install the LiteX development environment
+```
+$ cd ~
+$ mkdir litex
+$ cd litex
+$ wget https://raw.githubusercontent.com/enjoy-digital/litex/master/litex_setup.py
+$ chmod +x litex_setup.py
+$ ./litex_setup.py --init --install --user (--user to install to user directory)
+```
 
 # Run LiteX-Boards example
 
