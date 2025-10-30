@@ -94,6 +94,12 @@ Download the .bin installer file
 $ sudo chmod +x ./filename.bin
 $ ./filename.bin
 ```
+## Running the LiteX simulation
+```
+$ cd ~
+$ sudo apt install libevent-dev libjson-c-dev
+$ litex_sim --cpu-type=vexriscv
+```
 
 # Run LiteX-Boards example
 
