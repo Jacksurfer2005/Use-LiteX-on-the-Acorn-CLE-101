@@ -2,11 +2,11 @@
 
 # Acorn CLE 101
 
-The Acorn CLE 101 is a cryptocurrency mining accelerator card from SQRL that can be repurposed as a generic FPGA PCIe development board:
+**The Acorn CLE 101 is a cryptocurrency mining accelerator card from SQRL that can be repurposed as a generic FPGA PCIe development board:**
 
 ![Acorn CLE 101](20251025_140851.jpg)
 
-It features:
+**It features:**
 
 - A Xilinx Artix-7 XC7A100T FPGA (speed grade -2).
 - 512 MiB of DDR3 memory with a 16-bit interface.
@@ -17,7 +17,7 @@ It features:
 - 4 general-purpose I/O pins.
 - 4 LVDS pair I/Os for high-speed interfacing.
 
-The Acorn CLE 101 shares much of its design with the NiteFury and CLE215+ boards, offering the same powerful FPGA architecture but with less onboard memory, making it a cost-effective choice for developers. These boards, once used for cryptocurrency mining, can now be found at remarkably low prices — often between 40 € and 80 € on second-hand markets — offering excellent value as FPGA development platforms for hobbyists and researchers alike. :D
+*The Acorn CLE 101 shares much of its design with the NiteFury and CLE215+ boards, offering the same powerful FPGA architecture but with less onboard memory, making it a cost-effective choice for developers. These boards, once used for cryptocurrency mining, can now be found at remarkably low prices — often between 40 € and 80 € on second-hand markets — offering excellent value as FPGA development platforms for hobbyists and researchers alike. :D*
 
 # Prepare your Acorn CLE101 for LiteX
 
