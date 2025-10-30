@@ -94,6 +94,10 @@ Download the .bin installer file
 $ sudo chmod +x ./filename.bin
 $ ./filename.bin
 ```
+Add Vivado to path
+```
+$ echo 'export PATH=$PATH:/tools/Xilinx/Vivado/2023.1/bin' >> ~/.bashrc
+```
 ## Running the LiteX simulation
 ```
 $ cd ~
