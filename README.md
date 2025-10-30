@@ -84,6 +84,16 @@ Add to path
 $ export PATH=$PATH:$HOME/RISCV/bin
 $ echo 'export PATH=$PATH:$HOME/RISCV/bin' >> ~/.bashrc
 ```
+## Installing Vivado
+Install support packages
+```
+$ sudo apt install libtinfo-dev libtinfo5
+```
+Download the .bin installer file
+```
+$ sudo chmod +x ./filename.bin
+$ ./filename.bin
+```
 
 # Run LiteX-Boards example
 
