@@ -66,6 +66,23 @@ $ cd litex
 $ wget https://raw.githubusercontent.com/enjoy-digital/litex/master/litex_setup.py
 $ chmod +x litex_setup.py
 $ ./litex_setup.py --init --install --user (--user to install to user directory)
+$ ./litex_setup.py --update
+```
+Add to path
+```
+$ echo 'export PATH=$PATH:~/.local/bin' >> ~/.bashrc
+```
+3. Installation of cross-compiler toolchain for 64bit RISC-V
+```
+$ cd ~
+$ mkdir riscv
+$ cd riscv
+$ git clone --recursive https://github.com/riscv/riscv-gnu-toolchain
+```
+Add to path
+```
+$ export PATH=$PATH:$HOME/RISCV/bin
+$ echo 'export PATH=$PATH:$HOME/RISCV/bin' >> ~/.bashrc
 ```
 
 # Run LiteX-Boards example
