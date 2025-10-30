@@ -46,5 +46,13 @@ enter image description here enter image description here
 
 If not already done, make sure to install LiteX by following the LiteX installation guide and you are ready to use LiteX your board!
 
+# RISC-V Linux in LiteX/Rocket on FPGA Artix-7 XC7A100T
+## Installing Ubuntu
+You can either install Ubuntu via a Virtual Machine or install it directly on an external hard drive
+- For installing Ubuntu on an external hard drive, you can watch the tutorial from this link [External Hard Drive](https://www.youtube.com/watch?v=KFwA1tjZp1w&t=236s)
+- For installing Ubuntu on a Virtual Machine, please watch this video [Virtual Machine](https://www.youtube.com/watch?v=Hva8lsV2nTk)
+## Installing Litex
+
+
 # Run LiteX-Boards example
 
