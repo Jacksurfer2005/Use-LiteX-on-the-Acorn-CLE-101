@@ -30,3 +30,21 @@ To use the Acorn CLE215+ as a LiteX development board, the following hardware is
 - A Molex PICOEZMATE 6 cable (ex this one).
 - 2 X 6 pin headers.
 An extra PCIe riser + SATA cable will be useful if you want to create SoCs with LiteSATA.
+
+# Prepare the JTAG and Serial adapters
+The Acorn exposes the JTAG pins and general purpose IOs to 6-pin Pico-EZmate connectors. We need to create adapters for both connectors. The JTAG will be used to program the FPGA and the second connector for IOs (UART in our case):
+
+enter image description here
+
+You can cut the Pico-EZmate cable in half and solder the pin-headers according to the pin mapping provided:
+
+enter image description here
+
+You can now mount the cable adapters on the board and the board on the PCIe adapters:
+
+enter image description here enter image description here
+
+If not already done, make sure to install LiteX by following the LiteX installation guide and you are ready to use LiteX your board!
+
+# Run LiteX-Boards example
+
