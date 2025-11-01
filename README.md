@@ -103,6 +103,9 @@ $ echo 'export PATH=$PATH:/tools/Xilinx/Vivado/2023.1/bin' >> ~/.bashrc
 $ cd ~
 $ sudo apt install libevent-dev libjson-c-dev
 $ litex_sim --cpu-type=vexriscv
+$ ./make.py --board=XXYY --cpu-count=X --build
+$ ./make.py --board=XXYY --cpu-count=X --load
+$ litex_term --images=images/boot.json /dev/ttyUSBX
 ```
 
 # Run LiteX-Boards example
