@@ -1,5 +1,5 @@
 # Use LiteX on the Acorn CLE 215
-
+References: https://www.jasa.wiki/en/RISC-V_Linux.html
 # Acorn CLE 101
 
 **The Acorn CLE 101 is a cryptocurrency mining accelerator card from SQRL that can be repurposed as a generic FPGA PCIe development board:**
